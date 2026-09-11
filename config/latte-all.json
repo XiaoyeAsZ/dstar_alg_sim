@@ -1,0 +1,18 @@
+{
+    "device": "0",
+    "model": "latte",
+    "task": "t2v",
+  "localFilesOnly": true,
+    "caption_path": "datasets/fetv_caption.json",
+    "n_sample": 1000,
+    "num_inference_steps": 50,
+    "seed": 114514,
+    "enableTraceGen": false,
+    "tracePath": "None",
+    "enableDiffInfer": true,
+    "enableAttnCache": true,
+    "enableSparseAttn": true,
+    "sparseProfileName": "latte",
+    "sparseAttnMaskPath": "mask/",
+    "out_path": "outputs/latte/all/"
+}

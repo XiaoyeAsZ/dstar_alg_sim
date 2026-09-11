@@ -1,0 +1,22 @@
+{
+  "device": "0",
+  "model": "sd3.5-large",
+  "task": "sparse_profile",
+  "localFilesOnly": true,
+  "profileTask": "t2i",
+  "prompt": "A bathroom under construction with a double sink vanity.",
+  "num_inference_steps": 28,
+  "seed": 114514,
+  "seeds": [114514],
+  "sparseProfileThreshold": 0.0001,
+  "sparseProfileName": "sd3.5-large",
+  "sparseAttnMaskPath": "mask/",
+  "sparseProfileSaveRaw": false,
+  "profileOutputType": "latent",
+  "enableTraceGen": false,
+  "tracePath": "None",
+  "enableDiffInfer": false,
+  "enableAttnCache": false,
+  "enableSparseAttn": false,
+  "profileTimestepIndices": [0, 7, 14, 21, 27]
+}

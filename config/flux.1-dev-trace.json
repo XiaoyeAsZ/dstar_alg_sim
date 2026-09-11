@@ -1,0 +1,19 @@
+{
+  "device": "0",
+  "model": "flux.1-dev",
+  "task": "t2i",
+  "localFilesOnly": true,
+  "prompt": "A bathroom under construction with a double sink vanity.",
+  "height": 1024,
+  "width": 1024,
+  "num_inference_steps": 28,
+  "seed": 114514,
+  "enableTraceGen": true,
+  "tracePath": "traces/flux.1-dev/",
+  "enableDiffInfer": true,
+  "enableAttnCache": true,
+  "enableSparseAttn": true,
+  "sparseProfileName": "flux.1-dev-1024",
+  "sparseAttnMaskPath": "mask/",
+  "out_path": "outputs/flux.1-dev/trace/"
+}

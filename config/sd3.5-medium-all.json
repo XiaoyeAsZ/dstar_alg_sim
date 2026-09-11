@@ -1,0 +1,18 @@
+{
+    "device": "3",
+    "model": "sd3.5-medium",
+    "task": "t2i",
+  "localFilesOnly": true,
+    "caption_path": "datasets/coco_caption.json",
+    "n_sample": 1000,
+    "num_inference_steps": 28,
+    "seed": 114514,
+    "enableTraceGen": false,
+    "tracePath": "None",
+    "enableDiffInfer": true,
+    "enableAttnCache": true,
+    "enableSparseAttn": true,
+    "sparseProfileName": "sd3.5-medium",
+    "sparseAttnMaskPath": "mask/",
+    "out_path": "outputs/sd3.5-medium/all/"
+}

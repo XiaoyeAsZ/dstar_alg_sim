@@ -1,0 +1,18 @@
+{
+  "device": "0",
+  "model": "latte",
+  "task": "t2v",
+  "localFilesOnly": true,
+  "prompt": "A man shows a tube.",
+  "video_length": 16,
+  "num_inference_steps": 50,
+  "seed": 114514,
+  "enableTraceGen": true,
+  "tracePath": "traces/latte/",
+  "enableDiffInfer": true,
+  "enableAttnCache": true,
+  "enableSparseAttn": true,
+  "sparseProfileName": "latte",
+  "sparseAttnMaskPath": "mask/",
+  "out_path": "outputs/latte/trace/"
+}

@@ -1,0 +1,17 @@
+{
+  "device": "0",
+  "model": "sd3.5-large",
+  "task": "t2i",
+  "localFilesOnly": true,
+  "prompt": "A bathroom under construction with a double sink vanity.",
+  "num_inference_steps": 28,
+  "seed": 114514,
+  "enableTraceGen": true,
+  "tracePath": "traces/sd3.5-large/",
+  "enableDiffInfer": true,
+  "enableAttnCache": true,
+  "enableSparseAttn": true,
+  "sparseProfileName": "sd3.5-large",
+  "sparseAttnMaskPath": "mask/",
+  "out_path": "outputs/sd3.5-large/trace/"
+}

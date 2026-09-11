@@ -1,0 +1,16 @@
+{
+    "device": "0",
+    "model": "dit-xl-512",
+    "task": "c2i",
+  "localFilesOnly": true,
+    "n_sample": 1000,
+    "num_inference_steps": 50,
+    "enableTraceGen": false,
+    "tracePath": "",
+    "enableDiffInfer": true,
+    "enableAttnCache": true,
+    "enableSparseAttn": true,
+    "sparseProfileName": "dit-xl-512",
+    "sparseAttnMaskPath": "mask/",
+    "out_path": "outputs/dit-xl-512/all/"
+}

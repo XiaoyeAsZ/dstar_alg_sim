@@ -1,0 +1,23 @@
+{
+  "device": "0",
+  "model": "latte",
+  "task": "sparse_profile",
+  "localFilesOnly": true,
+  "profileTask": "t2v",
+  "prompt": "A man shows a tube.",
+  "video_length": 16,
+  "num_inference_steps": 50,
+  "seed": 114514,
+  "seeds": [114514],
+  "sparseProfileThreshold": 0.0001,
+  "sparseProfileName": "latte",
+  "sparseAttnMaskPath": "mask/",
+  "sparseProfileSaveRaw": false,
+  "profileOutputType": "latents",
+  "enableTraceGen": false,
+  "tracePath": "None",
+  "enableDiffInfer": false,
+  "enableAttnCache": false,
+  "enableSparseAttn": false,
+  "profileTimestepIndices": [0, 12, 25, 37, 49]
+}

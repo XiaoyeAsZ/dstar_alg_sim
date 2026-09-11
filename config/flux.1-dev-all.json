@@ -1,0 +1,20 @@
+{
+    "device": "2",
+    "model": "flux.1-dev",
+    "task": "t2i",
+  "localFilesOnly": true,
+    "caption_path": "datasets/coco_caption.json",
+    "n_sample": 1000,
+    "height": 1024,
+    "width": 1024,
+    "num_inference_steps": 28,
+    "seed": 114514,
+    "enableTraceGen": false,
+    "tracePath": "None",
+    "enableDiffInfer": true,
+    "enableAttnCache": true,
+    "enableSparseAttn": true,
+    "sparseProfileName": "flux.1-dev-1024",
+    "sparseAttnMaskPath": "mask/",
+    "out_path": "outputs/flux.1-dev/all/"
+}

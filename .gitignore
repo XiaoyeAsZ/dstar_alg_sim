@@ -1,0 +1,12 @@
+__pycache__/
+.cache/
+*.pyc
+outputs/*
+!outputs/.gitkeep
+mask/*
+!mask/.gitkeep
+traces/*
+!traces/.gitkeep
+*.pth
+!evaluation/assets/*.pth
+*.mp4

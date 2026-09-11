@@ -1,0 +1,17 @@
+# Core artifact dependencies
+numpy
+Pillow
+simpy
+scipy
+torchvision
+opencv-python
+ftfy
+regex
+tqdm
+
+# Model execution (install a CUDA-compatible PyTorch build separately when needed)
+torch
+diffusers
+transformers
+accelerate
+safetensors
