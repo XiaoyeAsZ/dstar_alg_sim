@@ -26,12 +26,3 @@ python dstar.py evaluate outputs/latte/all \
 # Simulate trace files produced by the prompt config.
 python dstar.py simulate traces/pixart-sigma-1024 --log-path outputs/simulator.log
 ```
-
-## Self-contained evaluation
-
-Image evaluation runs CLIP score, Inception Score, and FID against MS-COCO
-val2014 statistics by default. Video evaluation runs video Inception Score and
-FVD; FVD requires `--reference-dir`. All evaluator source, reference statistics,
-and pretrained metric weights are stored under `evaluation/`. Evaluation does
-not depend on `~/dit`, another Conda environment, a user cache, or network
-downloads. Python packages listed in `requirements.txt` must still be installed.
